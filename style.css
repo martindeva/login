@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff4fd;
+}
+.container-fluid {
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(
+    to right,
+    #da3343,
+    #dd323f,
+    #df313b,
+    #e13136,
+    #e33131
+  );
+}
+.logcam {
+  width: 60%;
+  height: 18%;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #ffffff;
+  border-radius: 0;
+  color: rgb(97, 97, 97);
+  font-size: 18px;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+.logh {
+  font-size: 18px;
+}
+.col-auto {
+  float: right;
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #da3343,
+    #dd323f,
+    #df313b,
+    #e13136,
+    #e33131
+  );
+  color: #ffffff;
+}
+.col-sm-3 {
+  color: rgb(97, 97, 97);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.text-center {
+  padding: 1%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Dongle", sans-serif;
+}
+.firstcam {
+  display: flex;
+  margin-top: -15vh;
+}
+.card {
+  width: 100%;
+  height: 60vh;
+  border-radius: 0px;
+  margin-top: -10vh;
+  margin-left: 3vh;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+.pcam {
+  font-size: 14px;
+  padding: 10px;
+}
+.card-body h2 {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 600;
+  color: #5d5d5d;
+}
